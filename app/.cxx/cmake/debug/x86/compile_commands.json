@@ -1,0 +1,7 @@
+[
+{
+  "directory": "F:/AndroidWorkspace/Gps_learn/app/.cxx/cmake/debug/x86",
+  "command": "F:\\Sdk\\android-ndk-r20\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android16 --gcc-toolchain=F:/Sdk/android-ndk-r20/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=F:/Sdk/android-ndk-r20/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\src\\main\\cpp\\native-lib.cpp.o -c F:\\AndroidWorkspace\\Gps_learn\\app\\src\\main\\cpp\\native-lib.cpp",
+  "file": "F:/AndroidWorkspace/Gps_learn/app/src/main/cpp/native-lib.cpp"
+}
+]

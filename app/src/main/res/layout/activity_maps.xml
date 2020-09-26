@@ -1,0 +1,131 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:sothree="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fram"
+        />
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <FrameLayout
+            android:id="@+id/mapfram"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+            <android.support.design.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+                <fragment
+                    android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    sothree:context="com.example.codingmountain.googlemap_clone_bottomsheetlayout.MapsActivity" />
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolBar"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="30dp"
+                    android:elevation="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@drawable/toolbar_radius"/>
+
+                <include layout="@layout/bottom_sheet"></include>
+                <include layout="@layout/bottom_sheet_feature"></include>
+
+
+            </android.support.design.widget.CoordinatorLayout>
+
+
+        </FrameLayout>
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nav"
+            android:textDirection="rtl"
+            android:layoutDirection="rtl"
+            android:elevation="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            app:headerLayout="@layout/hearder"
+            app:menu="@menu/drawer_menu"
+
+            />
+
+
+    </android.support.v4.widget.DrawerLayout>
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="wrap_content"
+        app:layout_anchor="@+id/bottom_sheet1"
+        app:layout_anchorGravity="clip_horizontal|left"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:orientation="vertical">
+
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="16dp"
+                app:backgroundTint="#ffffff"
+                app:elevation="6dp"
+                android:src="@drawable/placeholder"
+                app:pressedTranslationZ="12dp">
+
+
+            </android.support.design.widget.FloatingActionButton>
+
+            <android.support.design.widget.FloatingActionButton
+                android:visibility="gone"
+                android:id="@+id/fab"
+                app:layout_anchor="@+id/bottom_sheet1"
+                app:layout_anchorGravity="clip_horizontal|start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/more"
+                app:backgroundTint="#ffffff"
+                app:elevation="6dp">
+            </android.support.design.widget.FloatingActionButton>
+            <LinearLayout
+                android:id="@+id/lay"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="vertical"></LinearLayout>
+
+        </LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>
+
+    <!--<include layout="@layout/bottom_sheet"></include>-->
+
+</android.support.design.widget.CoordinatorLayout>
+

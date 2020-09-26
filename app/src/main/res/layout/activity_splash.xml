@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#E6FADE36"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Splash">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/splash_progressBar"
+        android:layout_marginBottom="10dp"
+        android:text="با تشکر از انتخاب شما " />
+
+
+    <ProgressBar
+        android:id="@+id/splash_progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text_keshtyar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splash_progressBar"
+        android:layout_marginTop="10dp"
+        android:text="شکیبا باشید "
+        android:textDirection="rtl"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_keshtyar"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="2dp"
+        android:layoutDirection="rtl"
+        android:text="توسعه دهندگان :\nسیامک حق شناس\n محمد مشایخ"
+        android:textDirection="rtl"
+
+        />
+
+</LinearLayout>

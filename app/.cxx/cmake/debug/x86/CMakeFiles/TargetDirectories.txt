@@ -1,0 +1,3 @@
+F:/AndroidWorkspace/Gps_learn/app/.cxx/cmake/debug/x86/CMakeFiles/native-lib.dir
+F:/AndroidWorkspace/Gps_learn/app/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+F:/AndroidWorkspace/Gps_learn/app/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir

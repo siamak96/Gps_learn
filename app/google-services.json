@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "257827036545",
+    "firebase_url": "https://fir-test-9c1dc.firebaseio.com",
+    "project_id": "fir-test-9c1dc",
+    "storage_bucket": "fir-test-9c1dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257827036545:android:2310a79d383ca880185c80",
+        "android_client_info": {
+          "package_name": "development.software.gps_learn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257827036545-d71rml7rbdav993s1cpcn7fr9tuqd4os.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "development.software.gps_learn",
+            "certificate_hash": "4fbe7f9cf3d4662c9be4bec79e686b7643bff632"
+          }
+        },
+        {
+          "client_id": "257827036545-l52ep6p1hi7tsqth5l7kslqnp2nqj8ok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHCkPlUHqwa_3s-uyyMfiIH7miqcx0iMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257827036545-l52ep6p1hi7tsqth5l7kslqnp2nqj8ok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

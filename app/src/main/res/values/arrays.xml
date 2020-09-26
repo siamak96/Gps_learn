@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="user_dialog">
+         <item>نوکنده</item>
+         <item>سرخنکلاته</item>
+         <item>سلطان علی</item>
+         <item>سیمین شهر</item>
+         <item>پیشکمر</item>
+         <item>نوده ملک</item>
+         <item>نگین شهر</item>
+         <item>مزرعه کتول</item>
+         <item>کردکوی</item>
+         <item>جلین</item>
+         <item>گرجی محله</item>
+         <item>گرگان</item>
+         <item>گمیشان</item>
+         <item>قلعه میران</item>
+         <item>گری دوجی</item>
+         <item>گالیکش</item>
+         <item>فندرسک</item>
+         <item>فاضل آباد</item>
+         <item>فجر</item>
+         <item>دلند</item>
+         <item>چهل چای</item>
+         <item>بندر ترکمن</item>
+         <item>باغلی مرامه</item>
+         <item>انزان</item>
+         <item>علی آباد</item>
+         <item>انبارالوم</item>
+         <item>آق قلا</item>
+         <item>آق بند</item>
+         <item>آق آباد</item>
+
+
+
+
+    </string-array>
+</resources>

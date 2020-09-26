@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/fragmentTheme"
+    android:orientation="vertical"
+    tools:context=".fragments.suggestion">
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text=" اعدادی که در سطر اول نشان داده می شود نمایانگر عملکرد قابل انتظار محصول بر حسب کیلوگرم در هکتار است.\n\n سطر دوم نشان دهنده ی میزان کود مورد نیاز بر حسب کیلوگرم است."
+        android:background="#F10909"
+        android:textColor="#fff"
+        />
+
+    <!-- TODO: Update blank fragment layout -->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+
+    >
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/suggest_OC"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layoutDirection="rtl"
+        android:text="جدول 1- توصیه کودی اوره (کیلوگرم در هکتار) برای زراعت پنبه آبی"
+        android:textDirection="rtl" />
+        <TextView
+            android:id="@+id/OcNot"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="عملکرد قابل انتظار وش (تن در هکتار)"
+            android:textDirection="rtl"/>
+
+    <TableLayout
+
+        android:gravity="center"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/table">
+
+
+</TableLayout>
+
+        <TextView
+            android:id="@+id/suggest_P"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layoutDirection="rtl"
+            android:text="  جدول 2- توصیه کودی سولفات پتاسیم (کیلوگرم در هکتار) برای زراعت پنبه آبی  "
+            android:textDirection="rtl" />
+        <TextView
+            android:id="@+id/so4Not"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="عملکرد قابل انتظار وش (تن در هکتار)"
+            android:textDirection="rtl"/>
+        <TableLayout
+            android:gravity="center"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/table1"></TableLayout>
+
+        <TextView
+            android:id="@+id/suggest_K"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layoutDirection="rtl"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="  جدول 2- توصیه کودی سولفات پتاسیم (کیلوگرم در هکتار) برای زراعت پنبه آبی  "
+            android:textDirection="rtl" />
+        <TextView
+            android:id="@+id/so4Not1"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="عملکرد قابل انتظار وش (تن در هکتار)"
+            android:textDirection="rtl"/>
+        <TableLayout
+            android:gravity="center"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/table2"></TableLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="منو" android:checkable="true">
+        <menu>
+            <item android:title="پروفایل"  android:id="@+id/pro"/>
+            <item android:title="اعضا" android:id="@+id/member" />
+            <item android:title="دسترسی اخیر " android:id="@+id/recently"/>
+            <item android:title="آموزش"  android:id="@+id/learn"/>
+            <item android:title="رمز ورود"  android:id="@+id/pass" android:enabled="true"/>
+        </menu>
+    </item>
+
+</menu>

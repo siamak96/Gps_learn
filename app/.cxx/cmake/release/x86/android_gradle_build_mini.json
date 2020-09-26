@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "F:\\AndroidWorkspace\\Gps_learn\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "F:\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\AndroidWorkspace\\Gps_learn\\app\\.cxx\\cmake\\release\\x86 --target clean"
+  ],
+  "libraries": {
+    "native-lib-Release-x86": {
+      "artifactName": "native-lib",
+      "buildCommand": "F:\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\AndroidWorkspace\\Gps_learn\\app\\.cxx\\cmake\\release\\x86 --target native-lib",
+      "abi": "x86",
+      "output": "F:\\AndroidWorkspace\\Gps_learn\\app\\build\\intermediates\\cmake\\release\\obj\\x86\\libnative-lib.so"
+    }
+  }
+}
